@@ -1,0 +1,18 @@
+# -*- coding: GBK -*-
+
+magicians = ["ÁõÇ«","´óÎÀ¿Æ²¨·Æ¶û","ÉòÖÇ³Ğ"]
+new_magicians = []
+
+def make_great(magicians,new_magicians):
+    while magicians:
+        current_magician = "Î°´óµÄ" + magicians.pop()
+        new_magicians.append(current_magician)
+        
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician)
+
+show_magicians(magicians)
+make_great(magicians[:],new_magicians)
+show_magicians(new_magicians)
+show_magicians(magicians)

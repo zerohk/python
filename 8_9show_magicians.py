@@ -1,0 +1,9 @@
+# -*- coding: GBK -*-
+
+magicians = ["ÁõÇ«","´óÎÀ¿Æ²¨·Æ¶û","ÉòÖÇ³Ğ"]
+
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician)
+
+show_magicians(magicians)
