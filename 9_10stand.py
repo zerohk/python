@@ -1,0 +1,6 @@
+# -*- coding: GBK -*
+from restaurant9_10 import Restaurant
+
+restaurant = Restaurant("¼ÒÏç²Ë¹İ","Ïæ²Ë")
+
+restaurant.describe_restaurant()

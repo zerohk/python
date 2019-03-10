@@ -1,0 +1,5 @@
+# -*- coding: GBK -*
+from user9_11 import Admin
+
+admin = Admin("æÃ","·ë","Å®",23,"º£ÄÏ")
+admin.privileges.show_privileges()
