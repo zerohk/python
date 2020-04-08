@@ -1,11 +1,11 @@
 # -*- coding: GBK -*-
 
-magicians = ["刘谦","大卫科波菲尔","沈智承"]
+magicians = ["鍒樿唉","澶у崼绉戞尝鑿插皵","ghhvv"]
 new_magicians = []
 
 def make_great(magicians,new_magicians):
     while magicians:
-        current_magician = "伟大的" + magicians.pop()
+        current_magician = "浼熷ぇ鐨�" + magicians.pop()
         new_magicians.append(current_magician)
         
 def show_magicians(magicians):
